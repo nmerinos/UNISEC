@@ -561,39 +561,6 @@
                             </div>
                             <!-- sp-slide -->
 
-                            <div class="sp-slide">
-                                <img class="sp-image sp-image-bg" src="http://placehold.it/1366x680" data-src="http://placehold.it/1366x680" data-retina="http://placehold.it/2732x1360" alt="">
-                                <img class="sp-layer" data-horizontal="630" data-vertical="110" data-show-transition="up" data-hide-transition="up" data-show-delay="400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000" src="http://placehold.it/95x95" alt="">
-                                <p class="sp-layer" data-horizontal="498" data-vertical="240" data-show-transition="left" data-hide-transition="up" data-show-delay="400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">
-                                    <span class="sp-line"></span>
-                                </p>
-                                <p class="sp-layer" data-horizontal="780" data-vertical="240" data-show-transition="right" data-hide-transition="up" data-show-delay="400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">
-                                    <span class="sp-line"></span>
-                                </p>
-                                <p class="sp-layer" data-horizontal="606" data-vertical="243" data-show-transition="down" data-hide-transition="up" data-show-delay="600" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">Some Text Goes Here</p>
-                                <p class="sp-layer sp-txt-4" data-horizontal="170" data-vertical="290" data-show-transition="up" data-hide-transition="up" data-show-delay="1000" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">Startup Framework is a set of components</p>
-                                <p class="sp-layer sp-txt-5" data-horizontal="400" data-vertical="370" data-show-transition="left" data-hide-transition="up" data-show-delay="1400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">We’ve created the product that will help your</p>
-                                <p class="sp-layer sp-txt-5" data-horizontal="509" data-vertical="402" data-show-transition="right" data-hide-transition="up" data-show-delay="1800" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">startup to look even better.</p>
-                                <p class="sp-layer sp-link-3" data-horizontal="563" data-vertical="475" data-show-transition="down" data-hide-transition="fade" data-show-delay="2200" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">
-                                    <a href="#">START toUR NOW</a>
-                                </p>
-                            </div>
-                            <!-- sp-slide -->
-
-                            <div class="sp-slide">
-                                <img class="sp-image sp-image-bg" src="http://upsidethemes.net/demo/jed/jed-business/images/text-intro-4/img-2.png" data-src="http://upsidethemes.net/demo/jed/jed-business/images/text-intro-4/img-2.png" data-retina="http://placehold.it/2732x1360" alt="">
-                                <img class="sp-layer" data-horizontal="776" data-vertical="110" data-show-transition="left" data-hide-transition="up" data-show-delay="400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000" src="http://placehold.it/596x575" alt="">
-                                <p class="sp-layer sp-txt-6" data-horizontal="107" data-vertical="150" data-show-transition="right" data-hide-transition="up" data-show-delay="1000" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">dedicated Services</p>
-                                <p class="sp-layer sp-txt-6" data-horizontal="107" data-vertical="218" data-show-transition="right" data-hide-transition="up" data-show-delay="1400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">For Your Business</p>
-                                <p class="sp-layer sp-txt-7" data-horizontal="107" data-vertical="295" data-show-transition="fade" data-hide-transition="up" data-show-delay="1800" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
-                                <p class="sp-layer sp-txt-7" data-horizontal="107" data-vertical="325" data-show-transition="fade" data-hide-transition="up" data-show-delay="2000" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">nonummy nibh euismod tincidunt ut laoreet dolore magna </p>
-                                <p class="sp-layer sp-txt-7" data-horizontal="107" data-vertical="355" data-show-transition="fade" data-hide-transition="up" data-show-delay="2200" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">aliquam erat volutpat.</p>
-                                <p class="sp-layer sp-link-4" data-horizontal="107" data-vertical="405" data-show-transition="left" data-hide-transition="fade" data-show-delay="2400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">
-                                    <a href="#">Start Tour now<i class="ti-arrow-right"></i></a>
-                                </p>
-                            </div>
-                            <!-- sp-slide -->
-
                         </div>
                         <!-- sp-slides -->
 
@@ -613,110 +580,242 @@
         <!-- kopa-area-no-space -->
 
         <section class="kopa-area kopa-area-2">
-
-            <div class="kopa-area-heading-text">
-                <div class="container">
-                    <p>About <br>us</p>
-                </div>
-            </div>
             <!-- kopa-area-heading-text -->
-
             <div class="container">
-
-                <div class="row">
-            
+                <div class="row">          
                     <div class="col-md-12 col-sm-12 col-xs-12">
-
                         <div class="widget jed_module_type_service_list jed_style_08">   
-
-                            <header class="widget-header jed_style_03">
-
                                 <div class="row">
-                                
                                     <div class="col-md-5 col-sm-5 col-xs-12">
-
                                         <h3 class="widget-title jed_style_07">About us</h3>
-                                
                                     </div>
                                     <!-- col-md-5 -->
-                                
                                     <div class="widget-title-des col-md-7 col-sm-7 col-xs-12">
-
-                                        <h4>Who we are</h4>
                                         <p>University Space Engineering Consortium (UNISEC) Global envisions a world where space science and technology are used by individuals and institutions in every country, rich or poor, and offers opportunities across the whole structure of society – whether academic, industrial or educational – for peaceful purposes and for the benefit of humankind.</p>
 
-                                
-                                
                                     </div>
                                     <!-- col-md-7 -->
                                 
                                 </div>
                                 <!-- row --> 
                                 
-                            </header> 
-                            <!-- widget-header -->
+                        </div>
+                    </div> 
+                </div>
+            </div>                
+        </section>
+        <section class="kopa-area kopa-area-2">
+            <!-- kopa-area-heading-text -->
+            <div class="container">
+                <div class="row">  
 
-               
-                
                     <div class="col-md-12 col-sm-12 col-xs-12">
 
                         <div class="widget jed_module_text_intro jed_style_04">     
                             <div class="widget-content">
-                                <article class="entry-item row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <div class="entry-thumb">
-                                    
-                                        </div>
-                                    </div>
+ 				<article class="entry-item row">                                   
                                     <div class="col-md-6 col-sm-6">
                                         <div class="entry-content clearfix">
                                             <h4 class="widget-sub-title jed_style_01">Mission</h4>
                                             <p class="jed_style_01">To create national and international collaboration networks between students and professors to perform space activities.</p>
-                                            <h4 class="widget-sub-title jed_style_01">Vision</h4>
-                                            <p class="jed_style_01">Gather aerospace researchers from the north of Mexico and create networks between national and international researchers and institutions.</p>
-                                            <img src="http://placehold.it/141x76" alt="">
                                         </div>
                                     </div>
-                                </article>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="entry-content clearfix">
+                                            <h4 class="widget-sub-title jed_style_01">Vision</h4>
+                                            <p class="jed_style_01">Gather aerospace researchers from the north of Mexico and create networks between national and international researchers and institutions.</p>
+                                        </div>
+                                    </div>
+                               </article>
                             </div>
                         </div>
                         <!-- widget -->
                 
                     </div>
                     <!-- col-md-12 -->
-                
-              
+		</div>
+            </div>
+        </section>
+
+        <section  class="kopa-area kopa-area-6">
+            <!-- kopa-area-heading-text -->
+            <div class="container">
+                <div class="row">
+		    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="widget jed_module_type_service_list jed_style_08">                
                             <div class="widget-content clearfix">
                                 <ul class="col-md-8 col-md-push-2 jed_show_many_soci ul-mh">
                                     <li class="col-md-6 col-sm-6 col-xs-12">
-                                        <i class="ti-layers-alt"></i>
+                                        <img src="http://s8.postimg.org/rw567u1ip/logo_UNI2008_1.jpg">
                                         <div class="jed_wrap">                      
-                                            <h6 class="entry-title">Residential Design</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit dolor nonummy.</p>
+                                            <h5 class="entry-title">Universidad Nacional de Ingenieria</h5>
+                                            <p>Professor: Hector Manuel Bedon Monzon</p>
                                         </div>
                                     </li>
                                     <li class="col-md-6 col-sm-6 col-xs-12">
-                                        <i class="ti-ruler-pencil"></i>
+                                        <img src="http://s9.postimg.org/wywnkbfcr/logo_UNI2008_2.jpg">
                                         <div class="jed_wrap">                      
-                                            <h6 class="entry-title">Office Design</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit dolor nonummy.</p>
+                                            <h5 class="entry-title">Universidad Nacional de Piura</h5>
+                                            <p>Professor: Msc. Luis Alberto Calderon Pinedo</p>
                                         </div>
                                     </li>
                                     <li class="col-md-6 col-sm-6 col-xs-12">
-                                        <i class="ti-shine"></i>
+                                        <img src="http://s28.postimg.org/c146g5pll/logo_UNI2008_3.jpg"></img>
                                         <div class="jed_wrap">                      
-                                            <h6 class="entry-title">Commercial Design</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit dolor nonummy.</p>
+                                            <h5 class="entry-title">Universidad Nacional de Trujillo</h5>
+                                            <p>Professor: Msc. Luis Julca Verastegui</p>
                                         </div>
                                     </li>
                                     <li class="col-md-6 col-sm-6 col-xs-12">
-                                        <i class="ti-panel"></i>
+                                        <img src="http://s22.postimg.org/z2wajxoul/logo_UNI2008_4.jpg"></img>
                                         <div class="jed_wrap">                      
-                                            <h6 class="entry-title">Landscape design</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit dolor nonummy.</p>
+                                            <h5 class="entry-title">Universidad Nacional Jose Maria Arguedas</h5>
+                                            <p>Professor: PhD. Florentino Lazaro Mendoza Marin</p>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="http://s22.postimg.org/z2wajxoul/logo_UNI2008_4.jpg"></img>
+                                        <div class="jed_wrap">                      
+                                            <h5 class="entry-title">Universidad Nacional Jose Maria Arguedas</h5>
+                                            <p>Professor: PhD. Florentino Lazaro Mendoza Marin</p>
                                         </div>
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+                        <!-- widget -->                
+                    </div>
+                    <!-- col-md-12 -->               
+                </div>
+                <!-- row --> 
+            </div>
+        </section>
+
+
+	<section>
+	   <div class="container">
+                <div class="row">
+                
+                    <div class="col-md-7 col-sm-7 col-xs-7">
+
+                        <div class="widget jed_module_type_post_feature_video jed_style_01">
+                            <header class="widget-header jed_style_01">
+                                <h3 class="widget-title jed_style_07">Our<br>Projects</h3>
+                                <p class="jed_style_01">Last projects <br>Arliss Cansat Rover Competition.<br>Peruvian Cubesat.<br>CLTP Japan Training. </p>    
+                            </header>
+                        </div>
+                
+                    </div>
+                    <!-- col-md-6 -->
+                
+                    <div class="col-md-5 col-sm-5 col-xs-5">
+                        <div class="widget jed_module_type_post_feature_video jed_style_01">
+                            <div class="widget-content">
+                                <div>
+                                   <iframe width="560" height="315" src="https://www.youtube.com/embed/OCcjahvDYvg" frameborder="0" allowfullscreen></iframe>			   
+                                </div> 
+                            </div>
+                        </div>
+                
+                    </div>
+                    <!-- col-md-6 -->
+                
+                </div>
+                <!-- row --> 
+		</div>
+	</section>
+        <!-- kopa-area-2 -->
+
+        <section>
+
+            <div class="container">
+
+                <div class="row">
+                        <div class="widget jed_module_text_intro jed_style_03 clearfix">
+                            <div class="row ul-mh">
+                                <div class="widget-content col-lg-6 col-md-6">
+                                    <span>what we do</span>
+                                    <ul class="clearfix">
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                            <div class="entry-thumb">
+                                            <img src="http://s28.postimg.org/gyu5kdgwt/20150918_154507_1.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">Arliss 2015</h5>
+                                                <p>Participation in cansat contest.</p>
+                                                <div class="icons">
+                                                    <!-- <a href="#"><i class="ion-social-reddit-outline"></i></a>
+
+                                                    <a href="#"> <i class="ion-social-twitter-outline"></i></a>
+
+                                                    <a href="#"> <i class="ion-social-vimeo-outline"></i></a> -->
+                                                </div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s9.postimg.org/q26m25ri7/20150913_133817_1.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">Modelo Cansat Rover</h5>
+                                                <p></p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s29.postimg.org/rakisd3d3/20141118_184700_1.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">2nd UNISEC-Global Meeting Japan</h5>
+                                                <p></p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s14.postimg.org/ie2hj77fl/20150917_171358_2.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">Cansat Launch in Arliss 2015</h5>
+                                                <p></p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s16.postimg.org/agsbnq9n9/received_b_WVzc2_Fn_ZV9ib_G9i_X2_F0d_GFja_G1lbn_Q6_MTAw_Nz_A.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">LionSAT</h5>
+                                                <p>Development 1U cubesat in CTIC-UNI.</p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s30.postimg.org/vyoul4001/20150916_125350_1.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">Black rock Desert in Nevada State</h5>
+                                                <p></p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <!-- widget -->
@@ -726,12 +825,13 @@
                 
                 </div>
                 <!-- row --> 
-
-
+            
             </div>
+            <!-- container -->
             
         </section>
-        <!-- kopa-area-2 -->
+        <!-- kopa-area-3 -->
+
 
         <section class="kopa-area kopa-area-3 kopa-area-parallax">
 
@@ -837,102 +937,13 @@
                                         <a href="#" class="jed_readmore jed_style_01">Read more</a>
                                     </header>
                                 </div>
-                                <div class="widget-content col-lg-6 col-md-6">
-                                    <span>what we do</span>
-                                    <ul class="clearfix">
-                                        <li class="jed_hover_effect_img_01">
-                                        <article class="entry-item">
-                                            <div class="entry-thumb">
-                                            <img src="http://placehold.it/190x190" alt="">
-                                            </div>
-                                            <div class="entry-content">
-                                                <h5 class="jed_style_01">Gunther Beard</h5>
-                                                <p>Integer ac massa vehicula, viverra augue et.</p>
-                                                <div class="icons">
-                                                    <!-- <a href="#"><i class="ion-social-reddit-outline"></i></a>
-                                                    <a href="#"> <i class="ion-social-twitter-outline"></i></a>
-                                                    <a href="#"> <i class="ion-social-vimeo-outline"></i></a> -->
-                                                </div>
-                                            </div>
-                                            </article>
-                                        </li>
-                                        <li class="jed_hover_effect_img_01">
-                                        <article class="entry-item">
-                                        <div class="entry-thumb">
-                                            <img src="http://placehold.it/190x190" alt="">
-                                            </div>
-                                            <div class="entry-content">
-                                                <h5 class="jed_style_01">Great idea</h5>
-                                                <p>Integer ac massa vehicula, viverra augue et.</p>
-                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
-                                            </div>
-                                            </article>
-                                        </li>
-                                        <li class="jed_hover_effect_img_01">
-                                        <article class="entry-item">
-                                        <div class="entry-thumb">
-                                            <img src="http://placehold.it/190x190" alt="">
-                                            </div>
-                                            <div class="entry-content">
-                                                <h5 class="jed_style_01">Great idea</h5>
-                                                <p>Integer ac massa vehicula, viverra augue et.</p>
-                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
-                                            </div>
-                                            </article>
-                                        </li>
-                                        <li class="jed_hover_effect_img_01">
-                                        <article class="entry-item">
-                                        <div class="entry-thumb">
-                                            <img src="http://placehold.it/190x190" alt="">
-                                            </div>
-                                            <div class="entry-content">
-                                                <h5 class="jed_style_01">Great idea</h5>
-                                                <p>Integer ac massa vehicula, viverra augue et.</p>
-                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
-                                            </div>
-                                            </article>
-                                        </li>
-                                        <li class="jed_hover_effect_img_01">
-                                        <article class="entry-item">
-                                        <div class="entry-thumb">
-                                            <img src="http://placehold.it/190x190" alt="">
-                                            </div>
-                                            <div class="entry-content">
-                                                <h5 class="jed_style_01">Great idea</h5>
-                                                <p>Integer ac massa vehicula, viverra augue et.</p>
-                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
-                                            </div>
-                                            </article>
-                                        </li>
-                                        <li class="jed_hover_effect_img_01">
-                                        <article class="entry-item">
-                                        <div class="entry-thumb">
-                                            <img src="http://placehold.it/190x190" alt="">
-                                            </div>
-                                            <div class="entry-content">
-                                                <h5 class="jed_style_01">Great idea</h5>
-                                                <p>Integer ac massa vehicula, viverra augue et.</p>
-                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
-                                            </div>
-                                            </article>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- widget -->
-                
-                    </div>
-                    <!-- col-md-12 -->
-                
-                </div>
-                <!-- row --> 
-            
-            </div>
-            <!-- container -->
-            
-        </section>
-        <!-- kopa-area-3 -->
+
+			</div>
+		    </div>
+	          </div>
+	       </div>
+	    </div>
+	</section>
 
         <section class="kopa-area">
 
@@ -1125,43 +1136,6 @@
 
             <div class="container">
 
-                <div class="row">
-                
-                    <div class="col-md-7 col-sm-7 col-xs-7">
-
-                        <div class="widget jed_module_type_post_feature_video jed_style_01">
-                            <header class="widget-header jed_style_01">
-                                <h3 class="widget-title jed_style_07">We Have This Ability to <br>craft your brand to <br>succeed in Business</h3>
-                                <p class="jed_style_01">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna. aliquam.</p>    
-                            </header>
-                        </div>
-                
-                    </div>
-                    <!-- col-md-6 -->
-                
-                    <div class="col-md-5 col-sm-5 col-xs-5">
-
-                        <div class="widget jed_module_type_post_feature_video jed_style_01">
-                            <div class="widget-content">
-                                <div class="entry-item">
-                                    <div class="entry-thumb">
-                                        <a href="#"><img src="http://placehold.it/459x249" alt=""></a>
-                                        <a href="#" class="jed_play"><i class="fa fa-caret-right"></i></a>
-                                    </div>
-                                    <div class="jed_wrap_bg"></div>
-                                    <div class="entry-content">
-                                        <span>Lorem ipsum dolor<br> sit amet Fusce pellentesqu</span>
-                                        <a href="#" class="jed_link_more">Watch Video</a>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                
-                    </div>
-                    <!-- col-md-6 -->
-                
-                </div>
-                <!-- row --> 
 
                 <div class="row">
                 
