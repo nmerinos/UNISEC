@@ -1,0 +1,237 @@
+@media screen and (max-width: 1160px) {
+	.container{
+	    width: 1000px;
+	}
+	.row.row_custom_01 div.col_custom_01[class^="col-"] {
+	    padding: 90px 30px 90px 10px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.container{
+	    width: 960px;
+	}
+}
+
+@media screen and (max-width: 979px) {
+	.container{
+	    width: 780px;
+	}
+}
+
+@media screen and (max-width: 799px) {
+	.container{
+	    width: 748px;
+	}
+	#bottom-sidebar {
+		padding: 40px 0 0;
+		.container{
+			> .row{
+			    > div{
+			        width: 100%;
+			    }
+			}
+		    .widget {
+		        margin-bottom: 40px;
+		    }
+		}
+	}
+	.row.row_custom_01{
+	    > div[class^="col-"]{
+	        width: 100%;
+	        margin-top: 0;
+	    }
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container{
+	    width: 620px;
+	}
+	.jed_module_portfolio .jed_loadmore .col-md-4 {
+	    width: 100%;
+	}
+}
+
+@media screen and (max-width: 639px) {
+	.container{
+	    width: 460px;
+	}
+	.row{
+	    > div{
+	        width: 100%;
+	        margin-top: 30px;
+	        &:first-child{
+	            margin-top: 0;
+	        }
+	    }
+	    &.masonry-container {
+		    > div{
+		        &:first-child{
+		        	margin-top: 30px;
+		        }
+		    }
+	    }
+	}
+	#bottom-sidebar, .widget-header{
+		.row{
+		    > div{
+		        margin-top: 0;
+		    }
+		}
+	}
+	.kopa-area{
+		padding: 40px 0;
+	}
+	.kopa-area {
+	    padding: 40px 0;
+	    > .container {
+	        > .row{
+	            .widget {
+	                margin-bottom: 40px;
+	            }
+	            &:last-child {
+	                .widget {
+	                    &:last-child {
+	                        margin-bottom: 0;
+	                        &.jed_module_slider_01{
+	                            margin-bottom: -45px;
+	                        }
+	                    }
+	                }
+	            }
+	        }
+	    }
+	    .widget {
+	        &:last-child {
+	            margin-bottom: 0;
+	            &.jed_module_slider_01{
+	                margin-bottom: -45px;
+	            }
+	        }
+	    }
+	} 
+	.kopa-area-no-space{
+		padding: 0;
+	}
+	.row.row_custom_01 div.col_custom_01[class^="col-"] {
+	    padding: 40px 30px 40px 10px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.container{
+	    width: 340px;
+	}
+	body {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+	.breadcrumb_des h3 {
+	    font-size: 24px;
+	    line-height: 32px;
+	}
+	.breadcrumb_left h3 {
+	    font-size: 30px;
+	    line-height: 38px;
+	}
+	.widget-title,
+	.jed_module_text_intro.jed_style_01 .widget-header .widget-title {
+	    font-size: 24px;
+	    line-height: 32px;
+	}
+	.jed_module_text_intro.jed_style_01 .widget-header {
+	    padding-left: 20px;
+	}
+	.widget-space-left .widget-content {
+	    padding-left: 0;
+	}
+	.widget {
+	    margin-bottom: 40px;
+	    > header,
+	    > .wrapper > header {
+	        margin-bottom: 30px;
+	        p {
+	            font-size: 16px;
+	            line-height: 28px;
+	        }
+	    }
+	} 
+	.widget-title.jed_style_01 {
+	    padding-left: 20px;
+	    &:before{
+	        top: 10%;
+	        left: 0;
+	        width: 3px;
+	        height: 80%;
+	    }
+	}
+	.widget-title.jed_style_02 {
+	    padding-left: 20px;
+	    margin-left: -20px;
+	    font-size: 22px;
+	    line-height: 30px;
+	    &:before{
+	        top: 10%;
+	        left: 0;
+	        width: 3px;
+	        height: 80%;
+	    }
+	}
+	.widget-title.jed_style_06 {
+	    padding-left: 20px;
+	    margin-left: -20px;
+	    &:before{
+	        top: 10%;
+	        left: 0;
+	        width: 3px;
+	        height: 80%;
+	    }
+	}
+	.widget-title.jed_style_07 {
+	    padding-left: 20px;
+	}
+	.widget-title.jed_style_08 {
+	    padding-left: 20px;
+	}
+	.widget-sub-title {
+	    margin-bottom: 5px;
+	}
+	.widget-header.jed_style_01 {
+	    padding-left: 20px;
+	    .widget-title.jed_style_01, .widget-title.jed_style_07, .widget-title.jed_style_08{
+	        margin-left: -20px;
+	    }
+	}
+	.widget-header.jed_style_03{
+	    margin-bottom: 30px;
+	    .widget-title-des{
+	        h4{
+	            font-size: 20px;
+	            line-height: 28px;
+	            margin-bottom: 10px;
+	        }
+	        p{
+	            font-size: 14px;
+	            line-height: 24px;
+	        }
+	    }
+	}
+	.jed_module_text_intro.jed_style_01 .widget-header .widget-sub-title {
+	    margin-bottom: 5px;
+	}
+	.kopa-area-3{
+		&:before{
+			height: 100%;
+		}
+		&:after{
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 359px) {
+	.container{
+	    width: 300px;
+	}
+}
