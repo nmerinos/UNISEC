@@ -1,0 +1,49 @@
+import requests 
+import ctypes
+from bs4 import BeautifulSoup
+from flask import request, render_template, redirect, url_for, abort, make_response
+from wtforms import Form, TextField, PasswordField, validators
+from app import app
+from flask import Flask, redirect, render_template, request, url_for
+from flask.ext.pymongo import PyMongo
+from flask import abort, make_response
+import markdown2
+import re
+import os
+import json
+import urllib, cStringIO
+from gridfs.errors import NoFile
+import requests 
+import copy
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+    return render_template("index.html", user=current_user)
+
+
+WIKIPART = re.compile(r'([A-Z][a-z0-9_]+)')
+WIKIWORD = re.compile(r'([A-Z][a-z0-9_]+(?:[A-Z][a-z0-9_]+)+)')
+
+@app.template_filter()
+def totitle(value):
+    return ' '.join(WIKIPART.findall(value))
+
+@app.template_filter()
+def wikify(value):
+    parts = WIKIWORD.split(value)
+    for i, part in enumerate(parts):
+        if WIKIWORD.match(part):
+            name = totitle(part)
+            parts[i] = '[%s](%s)' % (name, url_for('show_page', pagepath=part))
+    return markdown2.markdown(''.join(parts))
+
+@app.errorhandler(404)
+def new_page(error):
+    pagepath = request.path.lstrip('/')
+    return render_template('edit.html')
+
+
+
+
+
+

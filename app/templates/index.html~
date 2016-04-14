@@ -1,0 +1,737 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jedtheme - HTML5 Responsive Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" media="all" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.css') }}" media="all" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/themify-icons.css') }}" media="all" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/elegant.css') }}" media="all" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/superfish.css') }}" media="all" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.css') }}" media="all" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.css') }}" media="all" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.navgoco.css') }}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/sb-search.css') }}" media="all" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/slider-pro.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.mCustomScrollbar.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+        <script src="{{ url_for('static', filename='js/modernizr.custom.js') }}"></script>
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="{{ url_for('static', filename='img/icons/favicon.ico') }}">
+        <link rel="apple-touch-icon" href="{{ url_for('static', filename='img/icons/apple-touch-icon.png') }}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='img/icons/apple-touch-icon-72x72.png') }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='img/icons/apple-touch-icon-114x114.png') }}">
+
+<style>
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float: right;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+
+
+    </head>
+    
+<body class="">
+<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">    
+<ul class="nav topnav">
+  <li><a href="/">Home</a></li>
+  <li><a href="#about">About us</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#members">Members</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+</nav>
+<script>
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>
+
+
+    <div id="main-content">
+
+        <section class="kopa-area kopa-area-no-space">
+
+            <div class="widget jed_module_slider_04">               
+
+                <div class="widget-content">
+
+                    <div class="slider-pro slider-pro-3">
+                        <div class="sp-slides">
+
+                            <div class="sp-slide">
+                                <img class="sp-image sp-image-bg" src="http://cdn.makeagif.com/media/4-07-2016/VX3keg.gif" data-src="http://cdn.makeagif.com/media/4-07-2016/VX3keg.gif" data-retina="http://placehold.it/2732x1360" alt="">
+                                <img class="sp-layer" data-horizontal="200" data-vertical="90" data-show-transition="up" data-hide-transition="up" data-show-delay="400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000" src="http://s29.postimg.org/qd5a0b51j/unisec_logo.png" alt="">
+                               
+                                <p class="sp-layer sp-txt-5" data-horizontal="330" data-vertical="370" data-show-transition="left" data-hide-transition="up" data-show-delay="1400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">By the end of 2020, let's create a world where university students can</p>
+                                <p class="sp-layer sp-txt-5" data-horizontal="439" data-vertical="402" data-show-transition="right" data-hide-transition="up" data-show-delay="1800" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">participate in practical space projects in the country.</p>
+                                <p class="sp-layer sp-link-3" data-horizontal="563" data-vertical="475" data-show-transition="down" data-hide-transition="fade" data-show-delay="2200" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">
+                                    <a href="#">START toUR NOW</a>
+                                </p>
+                            </div>
+                            <!-- sp-slide -->
+
+                            <div class="sp-slide">
+                                <img class="sp-image sp-image-bg" src="http://swisscube.epfl.ch/images/news2013/swisscube.jpg" data-src="http://swisscube.epfl.ch/images/news2013/swisscube.jpg" data-retina="http://placehold.it/2732x1360" alt="">
+                                <p class="sp-layer sp-txt-6" data-horizontal="107" data-vertical="150" data-show-transition="right" data-hide-transition="up" data-show-delay="1000" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">Chasqui I</p>
+                                <p class="sp-layer sp-txt-6" data-horizontal="107" data-vertical="218" data-show-transition="right" data-hide-transition="up" data-show-delay="1400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">One of the firsts peruvian satellite</p>
+                                <p class="sp-layer sp-txt-7" data-horizontal="107" data-vertical="295" data-show-transition="fade" data-hide-transition="up" data-show-delay="1800" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">The "Research Nanosatellite Chasqui I" project is the first satellite project </p>
+                                <p class="sp-layer sp-txt-7" data-horizontal="107" data-vertical="325" data-show-transition="fade" data-hide-transition="up" data-show-delay="2000" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">of the National University of Engineering and its main objective the </p>
+                                <p class="sp-layer sp-txt-7" data-horizontal="107" data-vertical="355" data-show-transition="fade" data-hide-transition="up" data-show-delay="2200" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">improvement of capabilities in satellite technology UNI.</p>
+                                <p class="sp-layer sp-link-4" data-horizontal="107" data-vertical="405" data-show-transition="left" data-hide-transition="fade" data-show-delay="2400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">
+                                    <a href="#">Start Tour now<i class="ti-arrow-right"></i></a>
+                                </p>
+                            </div>
+                            <!-- sp-slide -->
+
+                            <div class="sp-slide">
+                                <img class="sp-image sp-image-bg" src="http://www.chasqui.uni.edu.pe/picture/Chasqui.jpg" data-src="http://www.chasqui.uni.edu.pe/picture/Chasqui.jpg" data-retina="http://placehold.it/2732x1360" alt="">
+                                <p class="sp-layer sp-txt-6" data-horizontal="107" data-vertical="230" data-show-transition="up" data-hide-transition="up" data-show-delay="400" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">Our</p>
+                                <p class="sp-layer sp-txt-6" data-horizontal="107" data-vertical="300" data-show-transition="up" data-hide-transition="up" data-show-delay="800" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">Projects</p>
+
+                                 <p class="sp-layer sp-link-5" data-horizontal="107" data-vertical="380" data-show-transition="down" data-hide-transition="fade" data-show-delay="1000" data-hide-delay="200" data-show-duration="1000" data-hide-duration="1000">
+                                    <a href="https://www.youtube.com/watch?v=bQz2qdLhtYQ"><i class="fa fa-play"></i>Play video</a>
+                                </p>
+
+                            </div>
+                            <!-- sp-slide -->
+
+                        </div>
+                        <!-- sp-slides -->
+
+                    </div>
+                    <!-- slider-pro -->  
+
+                    <div class="loading">
+                        <i class="fa fa-refresh fa-spin"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- widget -->   
+            
+        </section>
+        <!-- kopa-area-no-space -->
+
+        <section id="about" class="kopa-area kopa-area-2">
+            <!-- kopa-area-heading-text -->
+            <div class="container">
+                <div class="row">          
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="widget jed_module_type_service_list jed_style_08">   
+                                <div class="row">
+                                    <div class="col-md-5 col-sm-5 col-xs-12">
+                                        <h3 class="widget-title jed_style_07">About us</h3>
+                                    </div>
+                                    <!-- col-md-5 -->
+                                    <div class="widget-title-des col-md-7 col-sm-7 col-xs-12">
+                                        <p>University Space Engineering Consortium (UNISEC) Global envisions a world where space science and technology are used by individuals and institutions in every country, rich or poor, and offers opportunities across the whole structure of society – whether academic, industrial or educational – for peaceful purposes and for the benefit of humankind.</p>
+
+                                    </div>
+                                    <!-- col-md-7 -->
+                                
+                                </div>
+                                <!-- row --> 
+                                
+                        </div>
+                    </div> 
+                </div>
+            </div>                
+        </section>
+        <section class="kopa-area kopa-area-2">
+            <!-- kopa-area-heading-text -->
+            <div class="container">
+                <div class="row">  
+
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+
+                        <div class="widget jed_module_text_intro jed_style_04">     
+                            <div class="widget-content">
+ 				<article class="entry-item row">                                   
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="entry-content clearfix">
+                                            <h4 class="widget-sub-title jed_style_01">Mission</h4>
+                                            <p class="jed_style_01">To create national and international collaboration networks between students and professors to perform space activities.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="entry-content clearfix">
+                                            <h4 class="widget-sub-title jed_style_01">Vision</h4>
+                                            <p class="jed_style_01">Gather aerospace researchers from the north of Mexico and create networks between national and international researchers and institutions.</p>
+                                        </div>
+                                    </div>
+                               </article>
+                            </div>
+                        </div>
+                        <!-- widget -->
+                
+                    </div>
+                    <!-- col-md-12 -->
+		</div>
+            </div>
+        </section>
+
+        <section id="members" class="kopa-area kopa-area-6">
+            <!-- kopa-area-heading-text -->
+            <div class="container">
+                <div class="row">
+		    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="widget jed_module_type_service_list jed_style_08">                
+                            <div class="widget-content clearfix">
+                                <ul class="col-md-8 col-md-push-2 jed_show_many_soci ul-mh">
+                                    <li class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="http://s8.postimg.org/rw567u1ip/logo_UNI2008_1.jpg">
+                                        <div class="jed_wrap">                      
+                                            <h5 class="entry-title">Universidad Nacional de Ingenieria</h5>
+                                            <p>Professor: Hector Manuel Bedon Monzon</p>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="http://s9.postimg.org/wywnkbfcr/logo_UNI2008_2.jpg">
+                                        <div class="jed_wrap">                      
+                                            <h5 class="entry-title">Universidad Nacional de Piura</h5>
+                                            <p>Professor: Msc. Luis Alberto Calderon Pinedo</p>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="http://s28.postimg.org/c146g5pll/logo_UNI2008_3.jpg"></img>
+                                        <div class="jed_wrap">                      
+                                            <h5 class="entry-title">Universidad Nacional de Trujillo</h5>
+                                            <p>Professor: Msc. Luis Julca Verastegui</p>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="http://s22.postimg.org/z2wajxoul/logo_UNI2008_4.jpg"></img>
+                                        <div class="jed_wrap">                      
+                                            <h5 class="entry-title">Universidad Nacional Jose Maria Arguedas</h5>
+                                            <p>Professor: PhD. Florentino Lazaro Mendoza Marin</p>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6 col-sm-6 col-xs-12">
+                                        <img src="http://s16.postimg.org/8ll8y19ld/ctic_1.png"></img>
+                                        <div class="jed_wrap">                      
+                                            <h5 class="entry-title">Centro de Tecnologías de Información y Comunicaciones</h5>
+                                            <p>Professor: Ing. José Oliden</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- widget -->                
+                    </div>
+                    <!-- col-md-12 -->               
+                </div>
+                <!-- row --> 
+            </div>
+        </section>
+
+
+	<section id="projects">
+	   <div class="container">
+                <div class="row">
+                
+                    <div class="col-md-7 col-sm-7 col-xs-7">
+
+                        <div class="widget jed_module_type_post_feature_video jed_style_01">
+                            <header class="widget-header jed_style_01">
+                                <h3 class="widget-title jed_style_07">Our<br>Projects</h3>
+                                <p class="jed_style_01">Last projects <br>Arliss Cansat Rover Competition.<br>Peruvian Cubesat.<br>CLTP Japan Training. </p>    
+                            </header>
+                        </div>
+                
+                    </div>
+                    <!-- col-md-6 -->
+                
+                    <div class="col-md-5 col-sm-5 col-xs-5">
+                        <div class="widget jed_module_type_post_feature_video jed_style_01">
+                            <div class="widget-content">
+                                <div>
+                                   <iframe width="560" height="315" src="https://www.youtube.com/embed/OCcjahvDYvg" frameborder="0" allowfullscreen></iframe>			   
+                                </div> 
+                            </div>
+                        </div>
+                
+                    </div>
+                    <!-- col-md-6 -->
+                
+                </div>
+                <!-- row --> 
+		</div>
+	</section>
+        <!-- kopa-area-2 -->
+
+        <section>
+
+            <div class="container">
+
+                <div class="row">
+                        <div class="widget jed_module_text_intro jed_style_03 clearfix">
+                            <div class="row ul-mh">
+                                <div class="widget-content col-lg-6 col-md-6">
+                                    <span>what we do</span>
+                                    <ul class="clearfix">
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                            <div class="entry-thumb">
+                                            <img src="http://s28.postimg.org/gyu5kdgwt/20150918_154507_1.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">Arliss 2015</h5>
+                                                <p>Participation in cansat contest.</p>
+                                                <div class="icons">
+                                                    <!-- <a href="#"><i class="ion-social-reddit-outline"></i></a>
+
+                                                    <a href="#"> <i class="ion-social-twitter-outline"></i></a>
+
+                                                    <a href="#"> <i class="ion-social-vimeo-outline"></i></a> -->
+                                                </div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s9.postimg.org/q26m25ri7/20150913_133817_1.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">Modelo Cansat Rover</h5>
+                                                <p></p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s29.postimg.org/rakisd3d3/20141118_184700_1.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">2nd UNISEC-Global Meeting Japan</h5>
+                                                <p></p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s14.postimg.org/ie2hj77fl/20150917_171358_2.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">Cansat Launch in Arliss 2015</h5>
+                                                <p></p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s16.postimg.org/agsbnq9n9/received_b_WVzc2_Fn_ZV9ib_G9i_X2_F0d_GFja_G1lbn_Q6_MTAw_Nz_A.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">LionSAT</h5>
+                                                <p>Development 1U cubesat in CTIC-UNI.</p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                        <li class="jed_hover_effect_img_01">
+                                        <article class="entry-item">
+                                        <div class="entry-thumb">
+                                            <img src="http://s30.postimg.org/vyoul4001/20150916_125350_1.jpg" alt="">
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="jed_style_01">Black rock Desert in Nevada State</h5>
+                                                <p></p>
+                                                <div class="icons"><a href="#"><i class="ion-social-reddit-outline"></i></a><a href="#"> <i class="ion-social-twitter-outline"></i></a><a href="#"> <i class="ion-social-vimeo-outline"></i></a></div>
+                                            </div>
+                                            </article>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- widget -->
+                
+                    </div>
+                    <!-- col-md-12 -->
+                
+                </div>
+                <!-- row --> 
+            
+            </div>
+            <!-- container -->
+            
+        </section>
+        <!-- kopa-area-3 -->
+
+        <section class="kopa-area">
+
+            <div class="kopa-area-heading-text">
+                <div class="container">
+                    <p>Members</p>
+                </div>
+            </div>
+            <!-- kopa-area-heading-text -->
+
+            <div class="container">
+
+                <div class="row">
+                
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+
+                        <div class="widget jed_module_portfolio jed_style_01">
+                            <header class="widget-header jed_style_01">
+                                <h3 class="widget-title jed_style_01">UNISEC PERU members.</h3>
+                                <p>Representatives of the 4 universities.</p>
+                            </header>                  
+
+                            <div class="widget-content">
+
+                                <div class="masonry-filter jed_style_01">
+                                    <span>Filters :</span>
+                                    <a href="#" data-val="*" class="active">All</a>
+                                    <a href="#" data-val="1">Universidad Nacional de Ingenieria</a>
+                                    <a href="#" data-val="2">Universidad Nacional de Piura</a>
+                                    <a href="#" data-val="3">Universidad Nacional de Trujillo</a>
+                                    <a href="#" data-val="4">Universidad Nacional Jose Maria Arguedas</a>
+                                    <a href="#" data-val="5">Centro de Tecnologías de Información y Comunicaciones</a>
+                                </div>
+                                <!-- masonry-filter -->
+
+                                <div class="masonry-container row">
+
+                                    <div class="ms-item-01 show col-md-4 col-sm-4 col-xs-12" data-val="1">
+                                        <div class="entry-thumb">
+                                            <img src="http://dina.concytec.gob.pe/appDirectorioCTI/UploadFotoPath.do?tipo=visualizar_archivo&id_investigador=11975&ruta=/documents/docInvestigadores/11975/imagenes/bedon-picture.jpg" alt="">
+                                            <div class="jed_mask jed_style_01"></div>
+                                        </div>
+                                        <div class="entry-content">
+                                            <div class="text-wrap">
+                                                <h4 class="entry-title"><a href="#">Prof. Hector Bedon</a></h4>
+                                                <h5 class="entry-categories"><a href="#">Universidad Nacional de Ingenieria</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- masonry-item -->
+
+                                    <div class="ms-item-01 show col-md-4 col-sm-4 col-xs-12" data-val="2">
+                                        <div class="entry-thumb">
+                                            <img src="http://www.unp.edu.pe/oficinas/ocafca/ocafca_archivos/P7037483.JPG" alt="">
+                                            <div class="jed_mask jed_style_01"></div>
+                                        </div>
+                                        <div class="entry-content">
+                                            <div class="text-wrap">
+                                                <h4 class="entry-title"><a href="#">Msc. Luis Alberto Calderon Pinedo</a></h4>
+                                                <h5 class="entry-categories"><a href="#">Universidad Nacional de Piura</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- masonry-item -->
+
+                                    <div class="ms-item-01 show col-md-4 col-sm-4 col-xs-12" data-val="3">
+                                        <div class="entry-thumb">
+                                            <img src="http://s22.postimg.org/9rsyvhc99/prof.jpg" alt="">
+                                            <div class="jed_mask jed_style_01"></div>
+                                        </div>
+                                        <div class="entry-content">
+                                            <div class="text-wrap">
+                                                <h4 class="entry-title"><a href="#">Msc. Luis Julca Verastegui</a></h4>
+                                                <h5 class="entry-categories"><a href="#">Universidad Nacional de Trujillo</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- masonry-item -->
+
+                                    <div class="ms-item-01 show col-md-4 col-sm-4 col-xs-12" data-val="4">
+                                        <div class="entry-thumb">
+                                            <img src="http://s21.postimg.org/j51ler1bb/prof_3.jpg" alt="">
+                                            <div class="jed_mask jed_style_01"></div>
+                                        </div>
+                                        <div class="entry-content">
+                                            <div class="text-wrap">
+                                                <h4 class="entry-title"><a href="#">Professor: PhD. Florentino Lazaro Mendoza Marin</a></h4>
+                                                <h5 class="entry-categories"><a href="#">Universidad Nacional Jose Maria Arguedas</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- masonry-item -->
+
+                                    <div class="ms-item-01 show col-md-4 col-sm-4 col-xs-12" data-val="5">
+                                        <div class="entry-thumb">
+                                            <img src="http://s30.postimg.org/5do46ze5p/oliden.png" alt="">
+                                            <div class="jed_mask jed_style_01"></div>
+                                        </div>
+                                        <div class="entry-content">
+                                            <div class="text-wrap">
+                                                <h4 class="entry-title"><a href="#">Ing. José Oliden</a></h4>
+                                                <h5 class="entry-categories"><a href="#">Centro de Tecnologías de Información y Comunicaciones</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- masonry-item -->
+                                </div>
+                                <!-- masonry-container -->
+
+                            </div>
+                        </div>
+                        <!-- widget -->
+                
+                    </div>
+                    <!-- col-md-12 -->
+                
+                </div>
+                <!-- row --> 
+            
+            </div>
+            <!-- container -->
+            
+        </section>
+        <!-- kopa-area -->
+
+        <section class="kopa-area kopa-area-0">
+
+            <div class="kopa-area-heading-text">
+                <div class="container">
+                    <p>Student <br>members</p>
+                </div>
+            </div>
+            <!-- kopa-area-heading-text -->
+
+            <div class="container">
+
+                <div class="row">
+                
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+
+                        <div class="widget jed_module_staff_team_3 jed_style_04">
+
+                            <header class="widget-header jed_style_03">
+
+                                <div class="row">
+                                
+                                    <div class="col-md-5 col-sm-5 col-xs-12">
+                                        <h3 class="widget-title jed_style_07">Student members</h3>
+                                    </div>
+                                    <!-- col-md-5 -->
+                                
+                                    <div class="widget-title-des col-md-7 col-sm-7 col-xs-12">
+                                        <p>Current student members from different universities</p>
+                                    </div>
+                                    <!-- col-md-7 -->
+                                
+                                </div>
+                                <!-- row --> 
+                                
+                            </header> 
+                            <!-- widget-header -->
+
+                            <div class="widget-content">
+                                <ul class="clearfix">
+                                    <li>
+                                        <article class="entry-item">
+                                            <div class="entry-thumb">
+                                                <a href="#"><img src="https://scontent-mia1-1.xx.fbcdn.net/hphotos-frc1/v/t1.0-9/1896769_813401178706136_374444676196446064_n.jpg?oh=0d1366fe878130ee1dce6c3cb351d1da&oe=57ACE8A3" alt=""></a>
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="entry-title"><a href="#">Juan Carlos Huamani Asto</a></h5>
+                                                <a href="#" class="jed_author">Mechatronics student</a><br>
+                                                <a href="#" class="jed_author">Universidad Nacional de Ingenieria</a>
+                                                
+                                                <div class="jed_hover_item">
+                                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </article>
+                                    </li>
+
+                                    <li>
+                                        <article class="entry-item">
+                                            <div class="entry-thumb">
+                                                <a href="#"><img src="http://passport.mobilenations.com/images/account/100x100_avatar-generic.jpg" alt=""></a>
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="entry-title"><a href="#">Jenner Joham Lara Carrasco</a></h5>
+                                                <a href="#" class="jed_author">Student</a><br>
+                                                <a href="#" class="jed_author">Universidad Nacional de Piura</a>
+                                                
+                                                <div class="jed_hover_item">
+                                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li>
+                                        <article class="entry-item">
+                                            <div class="entry-thumb">
+                                                <a href="#"><img src="http://passport.mobilenations.com/images/account/100x100_avatar-generic.jpg" alt=""></a>
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="entry-title"><a href="#">Josue Cruzado Vargas</a></h5>
+                                                <a href="#" class="jed_author">Student</a><br>
+                                                <a href="#" class="jed_author">Universidad Nacional de Trujillo</a>
+                                                
+                                                <div class="jed_hover_item">
+                                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </li>
+
+                                    <li>
+                                        <div class="entry-item">
+                                            <div class="entry-thumb">
+                                                <a href="#"><img src="http://passport.mobilenations.com/images/account/100x100_avatar-generic.jpg" alt=""></a>
+                                            </div>
+                                            <div class="entry-content">
+                                                <h5 class="entry-title"><a href="#">Abel Garcia Yslachin</a></h5>
+                                                <a href="#" class="jed_author">Student</a><br>
+                                                <a href="#" class="jed_author">Universidad Nacional Jose Maria Arguedas</a>
+                                                
+                                                <div class="jed_hover_item">
+                                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                
+                    </div>
+                    <!-- col-md-12 -->
+                
+                </div>
+                <!-- row --> 
+            
+            </div>
+            <!-- container -->
+            
+        </section>
+        <!-- kopa-area-0 -->
+
+    <footer class="jed_pages_footer jed_style_03">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="jed_footer_copyright">
+                        <p>© Copyright 2016 <a href="#">UNISEC PERU</a> | All Rights Reserved</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 text-right">
+                    <div class="jed_social_links jed_style_04">
+                        <ul class="clearfix">
+                            <li><a href="#" class="fa fa-tumblr"></a></li>
+                            <li><a href="#" class="fa fa-rss"></a></li>
+                            <li><a href="#" class="fa fa-google-plus"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                            <li><a href="#" class="fa fa-pinterest"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup"><span class="ti-arrow-up"></span></a>
+
+    
+    <script src="{{ url_for('static', filename='js/jquery-1.11.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/classie.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/uisearch.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/superfish.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/superclick.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.sliderPro.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.waypoints.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.countTo.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/imagesloaded.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/masonry.pkgd.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.matchHeight-min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/owl.carousel.js') }}"></script>
+    
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="{{ url_for('static', filename='js/gmaps.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.form.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.validate.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.bootstrap-responsive-tabs.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery.fitvids.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}" charset="utf-8"></script>
+    
+
+
+
+</body>
+
+</html>

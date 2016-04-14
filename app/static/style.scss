@@ -1,0 +1,425 @@
+/**
+ * Table of Contents:
+ *
+
+1. - Global Styles
+2. - Header / #kopa-page-header
+    2.1 - Navigation / #main-nav
+    2.2 - Search / .search-box
+3. - Content 
+    3.1 - Widget
+    3.2 - Home Page
+    3.3 - Sub Page
+    3.4 - Sidebar / .sidebar
+    3.5 - Bottom sidebar / #bottom-sidebar
+4. - Footer / #kopa-page-footer
+
+5. - Responsive
+ 
+ * -----------------------------------------------------------------------------
+ */
+
+
+
+/**
+ * 1. Global Styles
+ * -----------------------------------------------------------------------------
+ */
+
+@import "sass/style-globals";
+
+
+/**
+ * 2. Header
+ * -----------------------------------------------------------------------------
+ */
+ 
+@import "../sass-module/header-2/style"; 
+  
+
+/**
+ * 3. Content
+ * -----------------------------------------------------------------------------
+ */
+
+ /*--- breadcrumb-1 ---*/
+
+@import "../sass-module/breadcrumb-1/style";
+
+ /*--- breadcrumb-2 ---*/
+
+@import "../sass-module/breadcrumb-2/style";
+
+
+/**
+ * 3.1 Widget
+ * -------------------------------------------------------------------
+ */
+
+/*--- jed_module_slider ---*/
+
+@import "../sass-module/slider-1/style";
+@import "../sass-module/slider-2/style";  
+@import "../sass-module/slider-3/style"; 
+@import "../sass-module/slider-4/style";   
+@import "../sass-module/slider-5/style";
+
+/*--- element-blockquote ---*/ 
+
+@import "../sass-module/element-blockquote-6/style";
+
+/*--- type-service-list ---*/ 
+ 
+@import "../sass-module/type-service-list-2/style";
+@import "../sass-module/type-service-list-3/style";
+@import "../sass-module/type-service-list-4/style";
+@import "../sass-module/type-service-list-5/style"; 
+@import "../sass-module/type-service-list-6/style"; 
+@import "../sass-module/type-service-list-8/style"; 
+@import "../sass-module/type-service-list-10/style"; 
+@import "../sass-module/type-service-list-11/style";
+@import "../sass-module/type-service-list-13/style";  
+
+/*--- text-intro ---*/
+
+@import "../sass-module/text-intro-1/style";
+@import "../sass-module/text-intro-2/style";
+@import "../sass-module/text-intro-3/style";
+@import "../sass-module/text-intro-4/style";
+@import "../sass-module/text-intro-5/style";
+
+/*--- type-skill ---*/ 
+
+@import "../sass-module/type-skill-1/style"; 
+@import "../sass-module/type-skill-2/style";
+@import "../sass-module/type-skill-3/style"; 
+@import "../sass-module/type-skill-4/style";
+@import "../sass-module/type-skill-5/style";
+@import "../sass-module/type-skill-6/style"; 
+@import "../sass-module/type-skill-7/style"; 
+@import "../sass-module/type-skill-8/style"; 
+@import "../sass-module/type-skill-9/style"; 
+
+
+/*--- portfolio-list ---*/
+
+@import "../sass-module/portfolio-list-1/style";
+@import "../sass-module/portfolio-list-6/style";
+
+/*--- type-post-feature-video-1 ---*/ 
+
+@import "../sass-module/type-post-feature-video-1/style";
+
+/*--- type-post-list ---*/
+
+@import "../sass-module/type-post-list-1/style";
+@import "../sass-module/type-post-list-2/style";
+@import "../sass-module/type-post-list-3/style";
+
+/*--- type-staff-team ---*/
+
+@import "../sass-module/type-staff-team-1-2/style";
+@import "../sass-module/type-staff-team-2-1/style";
+@import "../sass-module/type-staff-team-2-2/style";
+@import "../sass-module/type-staff-team-3/style"; 
+@import "../sass-module/type-staff-team-3-1/style"; 
+@import "../sass-module/type-staff-team-4/style";
+@import "../sass-module/type-staff-team-5/style";
+ 
+/*--- type-testimonial-car ---*/
+
+@import "../sass-module/type-testimonial-car-1/style";
+@import "../sass-module/type-testimonial-car-2/style";
+@import "../sass-module/type-testimonial-zigzag/style";
+
+/*--- type-client ---*/
+
+@import "../sass-module/type-client-grid-2-cols/style";
+@import "../sass-module/type-client-grid-3-cols/style";
+@import "../sass-module/type-client-grid-5-cols/style";
+@import "../sass-module/type-client-grid-5-cols-2/style";
+@import "../sass-module/type-client-grid-5-cols-3/style"; 
+@import "../sass-module/type-client-grid-5-cols-4/style";
+@import "../sass-module/type-client-grid-5-cols-5/style";
+@import "../sass-module/type-client-grid-no-border/style";
+
+/*--- social-newsletter ---*/
+ 
+@import "../sass-module/social-newsletter-1/style";
+@import "../sass-module/social-newsletter-2/style";
+
+/*--- countdown ---*/
+ 
+@import "../sass-module/type-countdown-1/style"; 
+@import "../sass-module/type-countdown-2/style";
+@import "../sass-module/type-countdown-3/style";
+@import "../sass-module/type-countdown-4/style";
+
+
+/**
+ * 3.2 Home page
+ * -------------------------------------------------------------------
+ */
+
+/**
+ * 3.3 Sub page
+ * -------------------------------------------------------------------
+ */
+
+/*_____________ Blog page _____________*/
+
+
+@import "../sass-module/type-blog-full/style";
+@import "../sass-module/type-blog-full/style";
+@import "../sass-module/type-blog-grid/style";
+@import "../sass-module/type-blog-grid-2/style";
+@import "../sass-module/type-blog-masonry/style";
+@import "../sass-module/type-blog-large/style";
+@import "../sass-module/type-blog-medium/style";
+@import "../sass-module/single-about-author-sidebar/style";
+@import "../sass-module/social-instagram/style";
+@import "../sass-module/social-instagram-2/style";
+@import "../sass-module/text-about-1/style";
+@import "../sass-module/type-post-list-4/style";
+
+//blog grid-1
+
+@import "../sass-module/type-blog-grid/style";
+
+//blog grid-2
+
+@import "../sass-module/type-blog-grid-2/style";
+
+//blog masonry
+
+@import "../sass-module/type-blog-masonry/style";
+
+//blog sidebar
+
+@import "../sass-module/single-about-author-sidebar-black/style";
+@import "../sass-module/text-about-2/style";
+@import "../sass-module/type-post-list-5/style";
+@import "../sass-module/default-recent-comments/style";
+@import "../sass-module/default-recent-comments-black/style";
+@import "../sass-module/social_follow-us_1/style";
+@import "../sass-module/social_follow-us_2/style";
+
+/*_____________ Single page _____________*/
+
+@import "../sass-module/single-related-1/style";
+
+// single blog full width
+
+@import "../sass-module/single-content-grid-3-col/style";
+@import "../sass-module/single-tags-1/style";
+@import "../sass-module/single-about-author/style";
+@import "../sass-module/comment-list/style";
+@import "../sass-module/element-blockquote-9/style";
+@import "../sass-module/element-blockquote-11/style";
+@import "../sass-module/comment-form/style";
+@import "../sass-module/single-next-and-prev-1/style";
+@import "../sass-module/single-related-1/style";
+@import "../sass-module/single-related-3/style";
+@import "../sass-module/single-related-4/style";
+@import "../sass-module/single-next-and-prev-3/style";
+
+
+/*--- single-content-context ---*/
+
+@import "../sass-module/single-content-text/style";
+
+.jed_blog_single_full_width {
+    &.jed_style_01 {
+        border: 1px solid $cl-008;
+        margin-bottom: 90px;
+        .jed_module_blockquote .row {
+            margin: 0;
+        }
+        .row {
+            .jed_module_single_tag {
+                margin-bottom: 0 !important;
+            }
+            .jed_module_share, .jed_module_about_author, #comments, .jed_module_single_content_grid_3_col, .jed_module_blockquote {
+                margin-bottom: 50px !important;
+            }
+        }
+    }
+    .jed_module_single_tag {
+        margin-bottom: 0;
+    }
+    .jed_module_share, .jed_module_about_author, #comments, .jed_module_single_content_grid_3_col, .jed_module_blockquote {
+        margin-bottom: 50px;
+    }
+    .jed_form_box, .jed_module_next_and_prev {
+        margin-bottom: 90px;
+    }
+    .container > .row {
+        .jed_module_single_tag {
+            margin-bottom: 0;
+        }
+        .jed_module_share, .jed_module_about_author, #comments, .jed_module_single_content_grid_3_col, .jed_module_blockquote {
+            margin-bottom: 50px;
+        }
+        .jed_form_box, .jed_module_next_and_prev {
+            margin-bottom: 90px;
+        }
+    }
+}
+
+.jed_background_video {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ul.jed_style_01 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        padding-left: 15px;
+        position: relative;
+        list-style: none;
+        &:before {
+            position: absolute;
+            content: '';
+            width: 4px;
+            height: 4px;
+            background: $color-hover;
+            top: 10px;
+            left: 0;
+        }
+    }
+}
+
+/*_____________ Error page _____________*/
+
+@import "../sass-module/404/style"; 
+
+/*_____________ Contact page _____________*/
+
+@import "../sass-module/google-maps/style"; 
+@import "../sass-module/comment-form/style"; 
+@import "../sass-module/contact-info/style"; 
+@import "../sass-module/contact-form-2/style"; 
+
+/*_____________ Event page _____________*/
+
+@import "../sass-module/type-event-list-2/style"; 
+
+/*_____________ Portfolio Single Page _____________*/
+
+@import "../sass-module/single-portfolio-1/style"; 
+@import "../sass-module/single-portfolio-2/style"; 
+@import "../sass-module/single-portfolio-3/style"; 
+
+/*_____________ Shop _____________*/
+
+@import "../sass-module/type-product-shop-list-1/style";
+@import "../sass-module/type-product-shop-list-2/style";
+@import "../sass-module/type-product-shop-list-3/style";
+@import "../sass-module/type-product-shop-single/style";
+
+
+
+/**
+* 3.4 - Sidebar / .sidebar
+* -------------------------------------------------------------------
+*/
+
+
+
+#main-content {
+    .sidebar {
+        .widget {
+            margin-bottom: 45px;
+        }
+    }
+}
+
+/*--- single-about-author-sidebar ---*/
+
+@import "../sass-module/single-about-author-sidebar/style";
+
+
+
+/**
+* 3.5 - Bottom sidebar / #bottom-sidebar
+* -------------------------------------------------------------------
+*/
+
+#bottom-sidebar { 
+    background: $cl-008;
+    padding: 90px 0 0;
+    position: relative;
+    &.jed_style_02{
+        @extend .white-text-style;
+        background: $color-primary;
+        p{
+            color: $color-secondary;
+            font-weight: 400;
+        }
+        a{
+            color: $color-secondary;
+            font-weight: 400;
+            &:hover{
+                color: $color-hover;
+            }
+        }
+    }
+}
+
+
+/**
+ * 4. Footer
+ * -----------------------------------------------------------------------------
+ */
+
+@import "../sass-module/footer-1/style";
+@import "../sass-module/footer-3/style";
+@import "../sass-module/footer-4/style";
+
+.scrollup {
+    z-index: 99999999;
+    display: none;
+    @include icon(42px, 42px, 42px, 14px, $color-hover);
+    border-radius: 5px;
+    position: fixed;
+    right: 20px; 
+    bottom: 22px;
+    margin: 0;
+    color: #fff !important;
+    &:hover {
+        background: $color-hover;
+    }
+}
+
+/*--- Firefox ---*/ 
+
+@-moz-document url-prefix() {
+
+}
+
+/*--- Custom ---*/
+
+.jed_module_type_client li {
+    padding: 86px 0;
+}
+.jed_module_staff_team_3.jed_style_03 ul {
+    margin: 0 -2px 0 -1px;
+}
+.jed_module_grid_5_cols p.jed_style_01 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/** 
+ * 5. - Responsive
+ * -------------------------------------------------------------------
+ */
+
+@import "sass/responsive";
